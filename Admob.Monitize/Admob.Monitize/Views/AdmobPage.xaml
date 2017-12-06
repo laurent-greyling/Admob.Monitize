@@ -12,7 +12,7 @@
         </Grid.RowDefinitions>
         <StackLayout>
             <Frame HeightRequest="250" WidthRequest="300" Padding="0,0,0,0" Grid.Row="0">
-                <ContentView VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                <ads:AdControlView1 VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
             </Frame>
             <Button Text="Interstitial Ad" Grid.Row="1"/>
             <BoxView BackgroundColor="Black" Grid.Row="2"/>
