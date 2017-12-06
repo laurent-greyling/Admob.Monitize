@@ -3,10 +3,8 @@
 using Android.App;
 using Android.Content;
 using Android.Content.PM;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
 using Android.OS;
+using static Android.Gms.Ads.MobileAds;
 
 namespace Admob.Monitize.Droid
 {
@@ -21,6 +19,7 @@ namespace Admob.Monitize.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
+            Initialize(ApplicationContext, "~");
 
             LoadApplication(new App());
         }
