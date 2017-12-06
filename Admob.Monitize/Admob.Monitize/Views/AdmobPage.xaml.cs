@@ -16,7 +16,7 @@ namespace Admob.Monitize.Views
 
         public async Task Show_Ad(object sender, EventArgs e)
         {
-            DependencyService.Get<IAdmobInterstitial>().Show("id with / in it");
+            DependencyService.Get<IAdmobInterstitial>().Show("");
             await Navigation.PushAsync(new LandingPage());
         }
     }

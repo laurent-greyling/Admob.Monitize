@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admob.Monitize.UWP", "Admob
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Admob.Monitize\Admob.Monitize\Admob.Monitize.projitems*{27c82070-4c53-4432-bc32-f4e680c07308}*SharedItemsImports = 4
+		Admob.Monitize\Admob.Monitize\Admob.Monitize.projitems*{3a0f0149-71ce-4b55-884e-146d42c4d1ba}*SharedItemsImports = 4
 		Admob.Monitize\Admob.Monitize\Admob.Monitize.projitems*{6e8c339c-0ff6-43df-95ed-4be1279b363f}*SharedItemsImports = 13
 		Admob.Monitize\Admob.Monitize\Admob.Monitize.projitems*{c63f7013-bb2f-46a5-a3d5-f31ba82991b1}*SharedItemsImports = 4
 	EndGlobalSection

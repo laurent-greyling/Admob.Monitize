@@ -19,7 +19,7 @@ namespace Admob.Monitize.Droid
             base.OnCreate(bundle);
 
             global::Xamarin.Forms.Forms.Init(this, bundle);
-            Initialize(ApplicationContext, "~");
+            Initialize(ApplicationContext, "");
 
             LoadApplication(new App());
         }

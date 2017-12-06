@@ -11,7 +11,7 @@ namespace Admob.Monitize.Droid
     public class AdViewRenderer1 : ViewRenderer<AdControlView1, AdView>
     {
         string adUnitId = "";
-        AdSize adSize = AdSize.SmartBanner;
+        AdSize adSize = AdSize.MediumRectangle;
         AdView adView;
 
         AdView CreateAdView()
