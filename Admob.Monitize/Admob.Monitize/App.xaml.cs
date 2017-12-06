@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Admob.Monitize.Views;
+using System;
 
 using Xamarin.Forms;
 
@@ -11,9 +12,9 @@ namespace Admob.Monitize
             InitializeComponent();
 
             if (Device.RuntimePlatform == Device.iOS)
-                MainPage = new MainPage();
+                MainPage = new AdmobPage();
             else
-                MainPage = new NavigationPage(new MainPage());
+                MainPage = new NavigationPage(new AdmobPage());
         }
     }
 }

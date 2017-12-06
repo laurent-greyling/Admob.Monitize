@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Admob.Monitize.Views.AdmobPage">
+    <Grid RowSpacing="0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <Frame HeightRequest="250" WidthRequest="300" Padding="0,0,0,0" Grid.Row="0">
+                <ContentView VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+            </Frame>
+            <Button Text="Interstitial Ad" Grid.Row="1"/>
+            <BoxView BackgroundColor="Black" Grid.Row="2"/>
+            <ContentView BackgroundColor="LightGray" Grid.Row="3" />
+        </StackLayout>
+    </Grid>
+</ContentPage>
