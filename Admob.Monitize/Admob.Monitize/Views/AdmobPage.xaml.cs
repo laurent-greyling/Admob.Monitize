@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using Admob.Monitize.Controls;
+using System;
 using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -16,5 +13,11 @@ namespace Admob.Monitize.Views
 		{
 			InitializeComponent ();
 		}
-	}
+
+        public async Task Show_Ad(object sender, EventArgs e)
+        {
+            DependencyService.Get<IAdmobInterstitial>().Show("id with / in it");
+            await Navigation.PushAsync(new LandingPage());
+        }
+    }
 }

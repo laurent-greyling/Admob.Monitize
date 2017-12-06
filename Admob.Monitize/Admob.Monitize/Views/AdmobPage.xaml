@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Admob.Monitize.Views.AdmobPage"
-             xmlns:ads="clr-namespace:Admob.Monitize.Controls">
+             xmlns:ads="clr-namespace:Admob.Monitize.Controls"
+             Title="Ads implemented">
     <Grid RowSpacing="0">
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -14,7 +15,7 @@
             <Frame HeightRequest="250" WidthRequest="300" Padding="0,0,0,0" Grid.Row="0">
                 <ads:AdControlView1 VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
             </Frame>
-            <Button Text="Interstitial Ad" Grid.Row="1"/>
+            <Button Text="Interstitial Ad" Clicked="Show_Ad" Grid.Row="1"/>
             <BoxView BackgroundColor="Black" Grid.Row="2"/>
             <ads:AdControlView BackgroundColor="LightGray" Grid.Row="3" />
         </StackLayout>
