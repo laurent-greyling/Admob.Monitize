@@ -15,6 +15,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Controls\AdControlView.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\AdmobPage.xaml.cs">
       <DependentUpon>AdmobPage.xaml</DependentUpon>
       <SubType>Code</SubType>
